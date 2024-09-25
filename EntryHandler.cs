@@ -16,7 +16,7 @@ public static class EntryHandler
                 handler.PlatformView.Layer.BorderWidth = 0;
                 handler.PlatformView.BorderStyle = UIKit.UITextBorderStyle.None;
 #elif WINDOWS
-                handler.PlatformView.BorderThickness = new Microsoft.UI.Xaml.Thickness(3);
+                handler.PlatformView.BorderThickness = new Microsoft.UI.Xaml.Thickness(0);
 #endif
             }
         });

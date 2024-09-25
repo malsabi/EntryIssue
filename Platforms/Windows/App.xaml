@@ -8,6 +8,7 @@
     <maui:MauiWinUIApplication.Resources>
         <ResourceDictionary>
             <Style TargetType="TextBox">
+                <Setter Property="BorderBrush" Value="Transparent" />
                 <Setter Property="BorderThickness" Value="0" />
             </Style>
         </ResourceDictionary>

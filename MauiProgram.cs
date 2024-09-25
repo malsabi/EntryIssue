@@ -18,9 +18,9 @@ namespace EntryIssue
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-            MauiApp app = builder.Build();
             EntryHandler.RegisterHandler();
-            return app;
+
+            return builder.Build();
         }
     }
 }
